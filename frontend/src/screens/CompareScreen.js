@@ -20,8 +20,8 @@ const CompareScreen =  () =>
   return (
     <div>
        { data.length && data.map((prod)=>
-          <><h1>{prod.name}</h1>
-         <div>{prod.description}</div>
+          <><h1 style={{backgroundColor:"gray", textAlign:"center", color:"white", padding:"10px"}}>{prod.name}</h1>
+         <div style={{backgroundColor:"lightgray", textAlign:"center", padding:"15px", marginBottom:"10px", fontSize:"15px"}}>{prod.description}</div>
          </>
       )} 
     </div>
